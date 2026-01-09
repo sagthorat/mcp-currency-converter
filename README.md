@@ -11,6 +11,9 @@ Add the following JSON config into your client's MCP configuration files:
     "--from",
     "git+https://github.com/sagthorat/mcp-currency-converter.git",
     "mcp-server"
-  ]
+  ],
+  "env": {
+    "API_KEY": "your_api_key_here"
+  }
 }
 ```
